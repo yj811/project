@@ -1,0 +1,33 @@
+Specification of Equations
+Equations is a variant of Wff'n Proof created in 1965, four years after Wff'n Proof had been
+invented. Instead of using symbols, the game uses 24 cubes labelling with numbers and
+mathematical equations. A mat is divided into Forbidden, Permitted and Required sections. To win
+this game, players sets a goal(a mathematical equation) at the beginning of a game and using the
+cubes to get the result.
+1. Objectives
+• An up-to-date Android multi-player game (normally 2-3 people but this version any number)
+• Run on most Android platforms, setting Android sdk at a low level for more players
+• Concurrent game which means that multiple games running at the same time acceptable
+• More if time: AI player, web-based, cross-platform
+2. Functions to achieve
+Before a game starts:
+• Players can either play as a guest or create accounts
+• Players can either create a game, set a password of the table and kick others out or
+join an existing waiting game
+• Players can create own rules which must be accepted by all other players
+• Share the game via Facebook, Google+
+During a game：
+• Players can leave in the middle of a game with a penalty and send a message to others.
+The game will continue unless only one player is left.
+• Players can chat with each other
+After a game ends
+• Players can wait for a new game starts
+• Players can leave and create a new game
+Besides, the game should have the ability to check the validity of the equations created by players.
+Task management
+I split the project into back-end and front-end. client-side and server-side. I will make use of
+database systems and a simple Android game engine(cocos2d) to make better graphics and
+simulation. For the UI design, the project is going to have a login screen, a main screen, a game
+board and a waiting screen for players to wait for a game to start.
+RESOURCES
+Academic Games Equations Tournament Rules
